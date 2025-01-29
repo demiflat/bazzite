@@ -2,20 +2,20 @@
 # If you are looking at this file in your root directory on your computer, editing it does nothing.
 
 # The image will be at ghcr.io/yourusername/name
-name: silverblue
+name: bazzite
 # The native container image to build on top of
 # Warning: Non-uBlue images might function unexpectly
 #base-image: ghcr.io/ublue-os/silverblue-nvidia
 #base-image: ghcr.io/ublue-os/silverblue-main
 #base-image: ghcr.io/ublue-os/silverblue-main
-base-image: ghcr.io/ublue-os/silverblue-main
+base-image: ghcr.io/ublue-os/bazzite
 # What fedora version to use. Use an explicit version or `latest`.
 # If you use `latest`, you will be automatically updated
 # to the next major version assuming the image you're using as your base container
 # builds with the tag (all uBlue images do this).
-fedora-version: 41
+fedora-version: bazzite
 # This description will be visible in the container metadata
-description: desktop os as i like it
+description: desktop os for the kids
 # These scripts will be executed during the container build
 # Place scripts in scripts/ and put the corresponding filename here
 scripts:
