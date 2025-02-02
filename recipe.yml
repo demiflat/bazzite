@@ -57,6 +57,7 @@ rpms:
   - ffmpeg
   - fido2-tools
   - figlet
+  - firefox
   - fish
   - foliate
   - fortune-mod
